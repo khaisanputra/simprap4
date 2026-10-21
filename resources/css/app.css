@@ -1,0 +1,83 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-page {
+    background: #ffffff;
+}
+
+.brand-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0f3b6c;
+    line-height: 1.2;
+}
+
+.login-card {
+    background: linear-gradient(135deg, #1f5fa8, #1b4f86);
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e7edf5;
+    padding: 24px;
+    color: #ffffff;
+}
+
+.login-card .form-label {
+    color: #ffffff;
+}
+
+.login-card .form-control {
+    border-radius: 8px;
+    border: 1px solid #d7e2ef;
+}
+
+.login-card .forgot-link {
+    color: #dfefff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.login-card .login-btn {
+    border: 1px solid #111;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.dashboard-body {
+    background: #f8fbff;
+}
+
+.navbar-brand.brand-nav {
+    color: #0f3b6c !important;
+    letter-spacing: 0.02em;
+}
+
+.dashboard-content {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0f3b6c;
+}
+
+.dashboard-subtitle {
+    font-size: 1rem;
+    color: #4e5d6c;
+    margin-top: 8px;
+}
+
+@media (max-width: 576px) {
+    .brand-title {
+        font-size: 1.6rem;
+    }
+
+    .login-card {
+        padding: 18px;
+    }
+}
