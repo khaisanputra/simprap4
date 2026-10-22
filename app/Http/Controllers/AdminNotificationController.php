@@ -102,3 +102,4 @@ class AdminNotificationController extends Controller
         return back()->with('notif_success', 'Semua notifikasi ditandai sudah dibaca.');
     }
 }
+//hallo
